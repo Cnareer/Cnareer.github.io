@@ -1,0 +1,45 @@
+.examplebox{
+			box-sizing: border-box;
+			width: 665px;
+			height: 100px;
+			padding: 5px;
+			background-color: Crimson;
+			margin-left: 400px;
+			margin-top: 50px;
+			padding: 30px;
+			border-radius: 50px;
+			outline: auto;
+			outline-width: 15px;
+			outline-color: ghostwhite;
+			
+		}
+	.examplebox h1{
+			text-align: center;
+			margin-top: -6px;
+			color: 	whitesmoke;
+		}
+	@font-face{
+			font-family: 'Valorant';
+			src: local('Valorant Font.ttf');
+		}
+	h1{
+		font-family:'Valorant', sans-serif;
+		font-size: 65px;
+		}
+
+.box2{
+			box-sizing: border-box;
+			width: 250px;
+			height: 50px;
+			padding: 5px;
+			background-color: Crimson;
+			margin-left: 600px;
+			margin-top: 30px;
+			padding: 15px;
+			border-radius: 50px;
+		}
+	.box2 nav{
+		text-align: center;
+		color: whitesmoke;
+	}
+

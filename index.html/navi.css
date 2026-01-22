@@ -1,45 +1,47 @@
-.examplebox{
-			box-sizing: border-box;
-			width: 665px;
-			height: 100px;
-			padding: 5px;
-			background-color: Crimson;
-			margin-left: 400px;
-			margin-top: 50px;
-			padding: 30px;
-			border-radius: 50px;
-			outline: auto;
-			outline-width: 15px;
-			outline-color: ghostwhite;
-			
-		}
-	.examplebox h1{
-			text-align: center;
-			margin-top: -6px;
-			color: 	whitesmoke;
-		}
-	@font-face{
-			font-family: 'Valorant';
-			src: local('Valorant Font.ttf');
-		}
-	h1{
-		font-family:'Valorant', sans-serif;
-		font-size: 65px;
-		}
+.header {
+	background-color: #475C56;
+	width: 100%;
+}
+.title {
+	color: #C3C1C7;
+	font-family: 'Dino';
+	font size: 20px;
+	letter-spacing: 2px;
+}
 
-.box2{
-			box-sizing: border-box;
-			width: 250px;
-			height: 50px;
-			padding: 5px;
-			background-color: Crimson;
-			margin-left: 600px;
-			margin-top: 30px;
-			padding: 15px;
-			border-radius: 50px;
-		}
-	.box2 nav{
-		text-align: center;
-		color: whitesmoke;
-	}
+.navbox{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
+.navbar{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px;
+
+}
+
+.navlink {
+	text-decoration: none;
+	color: #C3C1C7;
+
+}
+.navlink:hover {
+	color: #65636E;
+}
+
+.navstyle{
+	gap: 18px;
+	list-style: none;
+	display: flex;
+}
+
+@font-face{
+			font-family: 'Dino';
+			src: local('Dinosaur');
+		}
+nav {
+	font-family:'Dino', sans-serif;
+}
